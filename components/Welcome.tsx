@@ -10,7 +10,7 @@ export function SparklesPreview() {
         Hello, I am Krish 🎄
       </h5>
       <div className="w-[40rem] text-center">
-        <p className="md:text-4xl text-3xl lg:text-3xl font-bold text-white relative z-20">
+        <p className="md:text-4xl text-3xl lg:text-3xl font-bold text-white relative z-20 text-start" style={{marginTop : "20px"}}>
           Explore my digital sanctuary where creativity and innovation intertwine. I am krish, your guide on this coding odyssey, sharing thoughts and passion projects. Join me – let delve into the depths of my world 🌎
         </p>
       </div>

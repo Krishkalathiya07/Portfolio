@@ -6,6 +6,7 @@ import { NavBar } from "@/components/NavBar";
 import { SparklesPreview } from "@/components/Welcome";
 import { SocialMeadia } from "@/components/SocialMeadia";
 import { Projects } from "@/components/Projects";
+import { Subscribe } from "@/components/Subscribe";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,12 +29,12 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
-        </ThemeProvider></body>
         <NavBar />
+        </ThemeProvider></body>
         <SparklesPreview />
         <SocialMeadia />
         <Projects />
+        <Subscribe />
     </html>
   );
 }
