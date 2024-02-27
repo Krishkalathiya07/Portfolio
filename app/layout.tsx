@@ -7,6 +7,8 @@ import { SparklesPreview } from "@/components/Welcome";
 import { SocialMeadia } from "@/components/SocialMeadia";
 import { Projects } from "@/components/Projects";
 import { Subscribe } from "@/components/Subscribe";
+import { WorkExperince } from "@/components/WorkExperince";
+import { Sub } from "@/components/Sub";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,7 +36,9 @@ export default function RootLayout({
         <SparklesPreview />
         <SocialMeadia />
         <Projects />
-        <Subscribe />
+        <WorkExperince />
+        {/* <Subscribe /> */}
+        <Sub />
     </html>
   );
 }
