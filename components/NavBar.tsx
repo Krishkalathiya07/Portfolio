@@ -15,15 +15,15 @@ import { MoonStarIcon, SunDimIcon } from "lucide-react"
 const menuItems = [
   {
     name: 'Home',
-    href: '#',
+    href: '/Home',
   },
   {
     name: 'About',
-    href: '#',
+    href: '/About',
   },
   {
     name: 'Contact',
-    href: '#',
+    href: '/Contact',
   },
 ]
 

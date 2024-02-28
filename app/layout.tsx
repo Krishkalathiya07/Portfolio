@@ -30,15 +30,8 @@ export default function RootLayout({
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
-        >
-        <NavBar />
+          >{children}
         </ThemeProvider></body>
-        <SparklesPreview />
-        <SocialMeadia />
-        <Projects />
-        <WorkExperince />
-        {/* <Subscribe /> */}
-        <Sub />
     </html>
   );
 }
